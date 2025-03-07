@@ -10,7 +10,7 @@ cask "digger-browser" do
   auto_updates true
   depends_on macos: ">= :catalina"
 
-  app "DiggerBrowser.app"
+  app "digger-browser.app"
 
   zap trash: [
     "~/Library/Application Support/DiggerBrowser",
